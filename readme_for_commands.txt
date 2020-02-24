@@ -19,5 +19,4 @@ sudo rm /bin/sh
 sudo ln -s /bin/zsh /bin/sh
 
 
-
-gcc stack.c ‐o stack_gdb ‐g ‐z execstack ‐fno‐stack‐protector
+gcc stack.c -o stack_gdb -g -z execstack -fno-stack-protector
